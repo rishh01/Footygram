@@ -106,6 +106,21 @@ class _FirstState extends State<First> {
                         padding: const EdgeInsets.all(3),
                         child: (ClipOval(
                           child: Image.network(
+                            "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/768px-Borussia_Dortmund_logo.svg.png",
+                            fit: BoxFit.cover,
+                            height: double.infinity,
+                            width: double.infinity,
+                          ),
+                        )),
+                      ),
+                    ),
+                    CircleAvatar(
+                      radius: 30,
+                      backgroundColor: Colors.pink,
+                      child: Padding(
+                        padding: const EdgeInsets.all(3),
+                        child: (ClipOval(
+                          child: Image.network(
                             "https://th.bing.com/th/id/OIP.edwu9bfqLbrWvp-g2Gl9sQAAAA?rs=1&pid=ImgDetMain",
                             fit: BoxFit.cover,
                             height: double.infinity,
