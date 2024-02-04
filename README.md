@@ -1,6 +1,6 @@
-# footygram
+# Footygram
 
-An Instagram clone.
+An Instagram clone based on the teams and players and I like. 
 
 ## Getting Started
 
