@@ -35,11 +35,11 @@ class _FirstState extends State<First> {
         ),
         backgroundColor: Colors.white,
         elevation: 0,
-        actions: [
+        actions: const [
           Padding(
-            padding: const EdgeInsets.all(8.0),
+            padding: EdgeInsets.all(8.0),
             child: Row(
-              children: const [
+              children: [
                 Icon(
                   Icons.favorite_outline_outlined,
                   color: Colors.black,
@@ -231,11 +231,11 @@ class _FirstState extends State<First> {
                     width: double.infinity),
               ),
               const SizedBox(height: 5),
-              Row(
+              const Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Row(
-                    children: const [
+                    children: [
                       Icon(
                         Icons.favorite,
                         color: Colors.pink,
@@ -253,7 +253,7 @@ class _FirstState extends State<First> {
                       Icon(Icons.send),
                     ],
                   ),
-                  const Icon(
+                  Icon(
                     Icons.bookmark_border_rounded,
                   ),
                 ],
@@ -296,11 +296,11 @@ class _FirstState extends State<First> {
                     width: double.infinity),
               ),
               const SizedBox(height: 5),
-              Row(
+              const Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Row(
-                    children: const [
+                    children: [
                       Icon(
                         Icons.favorite,
                         color: Colors.pink,
@@ -318,7 +318,7 @@ class _FirstState extends State<First> {
                       Icon(Icons.send),
                     ],
                   ),
-                  const Icon(
+                  Icon(
                     Icons.bookmark_border_rounded,
                   ),
                 ],
@@ -340,8 +340,7 @@ class _FirstState extends State<First> {
         },
         destinations: const [
           NavigationDestination(icon: Icon(Icons.home_outlined), label: "Home"),
-          NavigationDestination(icon: Icon(Icons.explore), label: "Explore"),
-          NavigationDestination(icon: Icon(Icons.add_box_outlined), label: "Post"),
+          NavigationDestination(icon: Icon(Icons.search), label: "Explore"),
           NavigationDestination(icon: Icon(Icons.settings), label: "Settings"),
         ],
       ),
